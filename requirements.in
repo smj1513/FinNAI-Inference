@@ -1,0 +1,17 @@
+cryptography
+jaraco-functools
+langchain-community
+langchain-mcp-adapters
+langchain-postgres
+langchain-teddynote
+langchain-upstage
+langgraph
+langchain-openai
+langchain
+langchain-core
+langchain
+fastapi
+uvicorn
+pip-chill
+psycopg-binary
+uv
