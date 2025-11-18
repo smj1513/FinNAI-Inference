@@ -23,7 +23,12 @@ python -m venv .venv
 source .venv/bin/activate  # Linux/macOS
 # .\.venv\Scripts\activate  # Windows
 
-# 3. 의존성 패키지 설치
+# 3. 의존성 패키지 설치 ** 순서 꼭 지키기
+pip install uv #Rust 기반 패키지 관리자 uv 설치 (매우 빠름)
+
+#uv 모듈을 사용하여 현재 환경에 맞는 requirements.txt 파일을 자동으로 생성
+uv pip compile requirements.in -o requirements.txt 
+#생성된 requirements.txt 파일을 기반으로 의존성 설치
 pip install -r requirements.txt
 ```
 
