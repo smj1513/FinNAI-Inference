@@ -185,6 +185,8 @@ test:     테스트 관련
 ci:       CI/CD yaml 수정
 style:    코드 포맷, 주석, 공백 등
 chore:    기타 작업 (빌드, 패키지 등)
+ai: LLM, Agent, Embedding 등 AI 관련 기능 
+exp: AI 관련 학습, 테스트, 추론등 실험한 기능 - 프로덕션 포함 X 
 예시
 bash✅ 좋은 예시:
 feat: 사용자 로그인 API 연동
@@ -195,6 +197,9 @@ test: 로그인 기능 단위 테스트 추가
 ci: GitHub Actions 워크플로우 수정
 style: 코드 포맷팅 및 주석 정리
 chore: 의존성 패키지 업데이트
+ai: AI Agent Flow 엔드포인트 구현
+exp: Langgraph cohere reranker 노드 추가 검색 실험
+
 
 ❌ 나쁜 예시:
 수정
